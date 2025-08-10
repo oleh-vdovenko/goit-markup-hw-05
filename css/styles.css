@@ -726,6 +726,43 @@ button.service-order:focus {
   fill: #2e2f42;
 }
 
+.modal-form-check {
+  margin-bottom: 24px;
+}
+
+.form-check-field:checked+.form-check-label>.modal-checkbox-custom {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border-radius: 2px;
+  border: 1px solid #404bbf;
+}
+
+.form-check-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-checkbox-custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
+  ;
+}
+
+.form-check-link {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
 .modal-form-btn {
   display: block;
   margin: 0 auto;
